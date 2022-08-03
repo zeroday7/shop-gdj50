@@ -52,7 +52,7 @@
 		} else if($('#customerPass').val() == '') {
 			alert('고객 패스워드를 입력하세요');
 		} else {
-			customerForm.submit();
+			$('#customerForm').submit();
 		}
 	});
 	
@@ -62,7 +62,7 @@
 		} else if($('#employeePass').val() == '') {
 			alert('스텝 패스워드를 입력하세요');
 		} else {
-			employeeForm.submit();
+			$('#employeeForm').submit();
 		}
 	});
 </script>
